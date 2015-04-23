@@ -42,9 +42,10 @@ public class GetIndexedSlices {
             indexedSlicesQuery.addEqualsExpression("birthdate", 1975L);
             indexedSlicesQuery.addGtExpression("birthmonth", 6L);
             indexedSlicesQuery.addLtExpression("birthmonth", 8L);
-            indexedSlicesQuery.setColumnNames("birthdate","birthmonth");
+            indexedSlicesQuery.setColumnNames("birthdate","birthmonth","fake_column_1"); // 设置要查询的列
             indexedSlicesQuery.setColumnFamily("Indexed1");
             indexedSlicesQuery.setStartKey("");
+
 
             QueryResult<OrderedRows<String, String, Long>> result = indexedSlicesQuery.execute();
 
