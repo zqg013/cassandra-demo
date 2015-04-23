@@ -8,6 +8,7 @@ import me.prettyprint.hector.api.query.QueryResult;
 
 /**
  * Get a single column, 'City', for a specific NPA/NXX combination.
+ * 根据指定的ColumnFamily row_key column_name获取某一列的值
  * Created by liguoqing on 2015/4/23.
  */
 public class GetCityForNpanxx extends TutorialCommand {

@@ -22,7 +22,7 @@ public class TutorialRunner extends TutorialBase {
 
         init();
 
-        TutorialCommand command = loadCommand(args[0]);
+        TutorialCommand command = loadCommand("get_slice");
         if (command != null) {
             try {
                 ResultStatus result = command.execute();
