@@ -94,3 +94,206 @@
 2015-04-23 16:47:15,983 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-10>
 2015-04-23 16:47:15,983 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-10>
 2015-04-23 16:47:15,983 INFO  connection.ConcurrentHClientPool (ConcurrentHClientPool.java:shutdown(172)) - Shutdown complete on <ConcurrentCassandraClientPoolByHost>:{localhost(127.0.0.1):9160}
+2015-04-23 17:02:40,427 INFO  connection.CassandraHostRetryService (CassandraHostRetryService.java:<init>(47)) - Downed Host Retry service started with queue size -1 and retry delay 10s
+2015-04-23 17:02:40,479 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:02:40,489 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-1>
+2015-04-23 17:02:40,490 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:02:40,501 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:02:40,501 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-2>
+2015-04-23 17:02:40,501 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:02:40,502 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:02:40,502 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-3>
+2015-04-23 17:02:40,502 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:02:40,503 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:02:40,504 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-4>
+2015-04-23 17:02:40,504 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:02:40,504 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:02:40,505 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-5>
+2015-04-23 17:02:40,505 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:02:40,506 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:02:40,506 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-6>
+2015-04-23 17:02:40,506 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:02:40,507 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:02:40,507 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-7>
+2015-04-23 17:02:40,507 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:02:40,508 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:02:40,508 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-8>
+2015-04-23 17:02:40,508 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:02:40,509 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:02:40,509 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-9>
+2015-04-23 17:02:40,509 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:02:40,510 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:02:40,510 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-10>
+2015-04-23 17:02:40,511 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:02:40,511 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:02:40,511 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-11>
+2015-04-23 17:02:40,512 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:02:40,512 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:02:40,512 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-12>
+2015-04-23 17:02:40,513 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:02:40,551 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:02:40,551 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-13>
+2015-04-23 17:02:40,552 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:02:40,552 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:02:40,552 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-14>
+2015-04-23 17:02:40,553 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:02:40,553 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:02:40,554 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-15>
+2015-04-23 17:02:40,554 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:02:40,555 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:02:40,555 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-16>
+2015-04-23 17:02:40,555 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:02:40,556 DEBUG connection.ConcurrentHClientPool (ConcurrentHClientPool.java:<init>(58)) - Concurrent Host pool started with 16 active clients; max: 50 exhausted wait: 0
+2015-04-23 17:02:40,645 INFO  service.JmxMonitor (JmxMonitor.java:registerMonitor(54)) - Registering JMX me.prettyprint.cassandra.service_TestCluster:ServiceType=hector,MonitorType=hector
+2015-04-23 17:02:40,686 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-1>
+2015-04-23 17:02:40,699 DEBUG client.HThriftClient (HThriftClient.java:getCassandra(76)) - keyspace reseting from null to Keyspace1
+2015-04-23 17:02:40,720 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-1>
+2015-04-23 17:02:40,720 DEBUG connection.ConcurrentHClientPool (ConcurrentHClientPool.java:releaseClient(253)) - Status of releaseClient CassandraClient<localhost:9160-1> to queue: true
+2015-04-23 17:02:40,751 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-2>
+2015-04-23 17:02:40,751 DEBUG client.HThriftClient (HThriftClient.java:getCassandra(76)) - keyspace reseting from null to Keyspace1
+2015-04-23 17:02:40,762 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-2>
+2015-04-23 17:02:40,762 DEBUG connection.ConcurrentHClientPool (ConcurrentHClientPool.java:releaseClient(253)) - Status of releaseClient CassandraClient<localhost:9160-2> to queue: true
+2015-04-23 17:02:40,766 INFO  connection.HConnectionManager (HConnectionManager.java:shutdown(409)) - Shutdown called on HConnectionManager
+2015-04-23 17:02:40,766 INFO  connection.CassandraHostRetryService (CassandraHostRetryService.java:shutdown(54)) - Downed Host retry shutdown hook called
+2015-04-23 17:02:40,766 INFO  connection.CassandraHostRetryService (CassandraHostRetryService.java:shutdown(61)) - Downed Host retry shutdown complete
+2015-04-23 17:02:40,766 INFO  connection.ConcurrentHClientPool (ConcurrentHClientPool.java:shutdown(164)) - Shutdown triggered on <ConcurrentCassandraClientPoolByHost>:{localhost(127.0.0.1):9160}
+2015-04-23 17:02:40,767 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-2>
+2015-04-23 17:02:40,767 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-2>
+2015-04-23 17:02:40,767 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-5>
+2015-04-23 17:02:40,768 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-5>
+2015-04-23 17:02:40,768 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-8>
+2015-04-23 17:02:40,768 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-8>
+2015-04-23 17:02:40,768 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-14>
+2015-04-23 17:02:40,769 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-14>
+2015-04-23 17:02:40,769 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-15>
+2015-04-23 17:02:40,769 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-15>
+2015-04-23 17:02:40,770 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-16>
+2015-04-23 17:02:40,770 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-16>
+2015-04-23 17:02:40,770 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-3>
+2015-04-23 17:02:40,770 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-3>
+2015-04-23 17:02:40,771 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-10>
+2015-04-23 17:02:40,771 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-10>
+2015-04-23 17:02:40,771 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-13>
+2015-04-23 17:02:40,771 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-13>
+2015-04-23 17:02:40,772 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-6>
+2015-04-23 17:02:40,772 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-6>
+2015-04-23 17:02:40,772 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-9>
+2015-04-23 17:02:40,773 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-9>
+2015-04-23 17:02:40,773 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-11>
+2015-04-23 17:02:40,773 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-11>
+2015-04-23 17:02:40,773 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-7>
+2015-04-23 17:02:40,774 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-7>
+2015-04-23 17:02:40,774 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-4>
+2015-04-23 17:02:40,774 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-4>
+2015-04-23 17:02:40,774 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-12>
+2015-04-23 17:02:40,774 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-12>
+2015-04-23 17:02:40,775 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-1>
+2015-04-23 17:02:40,775 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-1>
+2015-04-23 17:02:40,775 INFO  connection.ConcurrentHClientPool (ConcurrentHClientPool.java:shutdown(172)) - Shutdown complete on <ConcurrentCassandraClientPoolByHost>:{localhost(127.0.0.1):9160}
+2015-04-23 17:03:10,787 INFO  connection.CassandraHostRetryService (CassandraHostRetryService.java:<init>(47)) - Downed Host Retry service started with queue size -1 and retry delay 10s
+2015-04-23 17:03:10,811 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:03:10,821 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-1>
+2015-04-23 17:03:10,821 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:03:10,829 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:03:10,829 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-2>
+2015-04-23 17:03:10,830 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:03:10,830 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:03:10,831 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-3>
+2015-04-23 17:03:10,831 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:03:10,831 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:03:10,832 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-4>
+2015-04-23 17:03:10,832 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:03:10,832 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:03:10,833 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-5>
+2015-04-23 17:03:10,833 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:03:10,833 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:03:10,834 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-6>
+2015-04-23 17:03:10,834 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:03:10,835 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:03:10,835 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-7>
+2015-04-23 17:03:10,835 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:03:10,836 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:03:10,836 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-8>
+2015-04-23 17:03:10,836 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:03:10,837 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:03:10,837 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-9>
+2015-04-23 17:03:10,837 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:03:10,838 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:03:10,838 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-10>
+2015-04-23 17:03:10,838 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:03:10,839 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:03:10,839 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-11>
+2015-04-23 17:03:10,839 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:03:10,840 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:03:10,840 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-12>
+2015-04-23 17:03:10,840 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:03:10,841 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:03:10,841 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-13>
+2015-04-23 17:03:10,841 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:03:10,842 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:03:10,842 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-14>
+2015-04-23 17:03:10,842 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:03:10,843 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:03:10,843 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-15>
+2015-04-23 17:03:10,843 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:03:10,844 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:03:10,844 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-16>
+2015-04-23 17:03:10,845 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:03:10,845 DEBUG connection.ConcurrentHClientPool (ConcurrentHClientPool.java:<init>(58)) - Concurrent Host pool started with 16 active clients; max: 50 exhausted wait: 0
+2015-04-23 17:03:10,909 INFO  service.JmxMonitor (JmxMonitor.java:registerMonitor(54)) - Registering JMX me.prettyprint.cassandra.service_TestCluster:ServiceType=hector,MonitorType=hector
+2015-04-23 17:03:10,948 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-1>
+2015-04-23 17:03:10,960 DEBUG client.HThriftClient (HThriftClient.java:getCassandra(76)) - keyspace reseting from null to Keyspace1
+2015-04-23 17:03:10,979 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-1>
+2015-04-23 17:03:10,979 DEBUG connection.ConcurrentHClientPool (ConcurrentHClientPool.java:releaseClient(253)) - Status of releaseClient CassandraClient<localhost:9160-1> to queue: true
+2015-04-23 17:03:11,009 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-2>
+2015-04-23 17:03:11,010 DEBUG client.HThriftClient (HThriftClient.java:getCassandra(76)) - keyspace reseting from null to Keyspace1
+2015-04-23 17:03:11,020 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-2>
+2015-04-23 17:03:11,020 DEBUG connection.ConcurrentHClientPool (ConcurrentHClientPool.java:releaseClient(253)) - Status of releaseClient CassandraClient<localhost:9160-2> to queue: true
+2015-04-23 17:03:11,024 INFO  connection.HConnectionManager (HConnectionManager.java:shutdown(409)) - Shutdown called on HConnectionManager
+2015-04-23 17:03:11,024 INFO  connection.CassandraHostRetryService (CassandraHostRetryService.java:shutdown(54)) - Downed Host retry shutdown hook called
+2015-04-23 17:03:11,024 INFO  connection.CassandraHostRetryService (CassandraHostRetryService.java:shutdown(61)) - Downed Host retry shutdown complete
+2015-04-23 17:03:11,024 INFO  connection.ConcurrentHClientPool (ConcurrentHClientPool.java:shutdown(164)) - Shutdown triggered on <ConcurrentCassandraClientPoolByHost>:{localhost(127.0.0.1):9160}
+2015-04-23 17:03:11,025 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-2>
+2015-04-23 17:03:11,025 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-2>
+2015-04-23 17:03:11,025 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-5>
+2015-04-23 17:03:11,025 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-5>
+2015-04-23 17:03:11,026 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-8>
+2015-04-23 17:03:11,026 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-8>
+2015-04-23 17:03:11,026 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-14>
+2015-04-23 17:03:11,026 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-14>
+2015-04-23 17:03:11,027 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-15>
+2015-04-23 17:03:11,027 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-15>
+2015-04-23 17:03:11,027 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-16>
+2015-04-23 17:03:11,027 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-16>
+2015-04-23 17:03:11,028 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-3>
+2015-04-23 17:03:11,028 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-3>
+2015-04-23 17:03:11,028 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-10>
+2015-04-23 17:03:11,028 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-10>
+2015-04-23 17:03:11,028 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-13>
+2015-04-23 17:03:11,029 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-13>
+2015-04-23 17:03:11,029 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-6>
+2015-04-23 17:03:11,029 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-6>
+2015-04-23 17:03:11,029 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-9>
+2015-04-23 17:03:11,029 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-9>
+2015-04-23 17:03:11,030 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-11>
+2015-04-23 17:03:11,030 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-11>
+2015-04-23 17:03:11,030 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-7>
+2015-04-23 17:03:11,030 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-7>
+2015-04-23 17:03:11,031 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-4>
+2015-04-23 17:03:11,031 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-4>
+2015-04-23 17:03:11,031 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-12>
+2015-04-23 17:03:11,031 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-12>
+2015-04-23 17:03:11,031 DEBUG client.HThriftClient (HThriftClient.java:close(94)) - Closing client CassandraClient<localhost:9160-1>
+2015-04-23 17:03:11,032 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status true for client CassandraClient<localhost:9160-1>
+2015-04-23 17:03:11,032 INFO  connection.ConcurrentHClientPool (ConcurrentHClientPool.java:shutdown(172)) - Shutdown complete on <ConcurrentCassandraClientPoolByHost>:{localhost(127.0.0.1):9160}
+2015-04-23 17:30:03,731 INFO  connection.CassandraHostRetryService (CassandraHostRetryService.java:<init>(47)) - Downed Host Retry service started with queue size -1 and retry delay 10s
+2015-04-23 17:30:03,862 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:30:03,982 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-1>
+2015-04-23 17:30:03,983 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:30:05,022 DEBUG client.HThriftClient (HThriftClient.java:open(142)) - Unable to open transport to localhost(127.0.0.1):9160
+2015-04-23 17:30:05,022 ERROR connection.HConnectionManager (HConnectionManager.java:<init>(77)) - Could not start connection pool for host localhost(127.0.0.1):9160
+2015-04-23 17:30:05,023 INFO  connection.CassandraHostRetryService (CassandraHostRetryService.java:add(67)) - Host detected as down was added to retry queue: localhost(127.0.0.1):9160
+2015-04-23 17:30:05,024 DEBUG factory.HThriftClientFactoryImpl (HThriftClientFactoryImpl.java:createClient(26)) - Creation of new client for host: 127.0.0.1
+2015-04-23 17:30:05,024 DEBUG client.HThriftClient (HThriftClient.java:isOpen(159)) - Transport open status false for client CassandraClient<localhost:9160-2>
+2015-04-23 17:30:05,025 DEBUG client.HThriftClient (HThriftClient.java:open(120)) - Creating a new thrift connection to localhost(127.0.0.1):9160
+2015-04-23 17:30:05,336 INFO  service.JmxMonitor (JmxMonitor.java:registerMonitor(54)) - Registering JMX me.prettyprint.cassandra.service_TestCluster:ServiceType=hector,MonitorType=hector

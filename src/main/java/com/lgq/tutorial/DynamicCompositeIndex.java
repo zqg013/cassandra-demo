@@ -26,6 +26,7 @@ public class DynamicCompositeIndex extends TutorialCommand {
     private static DynamicCompositeSerializer dcs = new DynamicCompositeSerializer();
 
     public DynamicCompositeIndex(Keyspace keyspace) {
+
         super(keyspace);
     }
 
