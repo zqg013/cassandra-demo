@@ -22,7 +22,7 @@ public class TutorialRunner extends TutorialBase {
 
         init();
 
-        TutorialCommand command = loadCommand("dynamic_comp_index");
+        TutorialCommand command = loadCommand("insert");
         if (command != null) {
             try {
                 ResultStatus result = command.execute();

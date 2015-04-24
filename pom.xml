@@ -21,7 +21,7 @@
             <version>2.4</version>
         </dependency>
 
-        <!-- cassandra java api hector 0.8.0-2 -->
+        <!-- cassandra java api hector 1.0-2 -->
         <dependency>
             <groupId>me.prettyprint</groupId>
             <artifactId>hector-core</artifactId>
