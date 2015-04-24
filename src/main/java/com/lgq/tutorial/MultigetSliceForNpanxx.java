@@ -9,6 +9,7 @@ import me.prettyprint.hector.api.query.QueryResult;
 /**
  * Like {@link GetSliceForNpanxx}, but uses the multiget_slice to
  * apply the slice operation to mulitple keys
+ * 在column family中 指定多个row key 进行查询 多个column
  * Created by alone on 2015/4/23.
  */
 public class MultigetSliceForNpanxx extends TutorialCommand {

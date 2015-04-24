@@ -24,6 +24,7 @@ public class GetSliceForStateCity extends TutorialCommand {
             sliceQuery.setColumnFamily("StateCity");
             sliceQuery.setKey("TX Austin");
             // change 'reversed' to true to get the columns in reverse order
+            // reversed 改为 true ，范围应该更改为 end key - start key
             sliceQuery.setRange(202L, 204L, false, 5);
             QueryResult<ColumnSlice<Long, String>> result = sliceQuery.execute();
             return result;

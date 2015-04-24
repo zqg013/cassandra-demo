@@ -9,6 +9,7 @@ import me.prettyprint.hector.api.query.SliceQuery;
 
 /**
  * Get all the columns for a single Npanxx row.
+ * 在column family中 查询 指定 row key 的所有列的值
  * Created by alone on 2015/4/23.
  */
 public class GetSliceForNpanxx extends TutorialCommand {

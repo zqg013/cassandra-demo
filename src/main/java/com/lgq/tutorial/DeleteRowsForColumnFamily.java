@@ -13,6 +13,7 @@ import me.prettyprint.hector.api.query.QueryResult;
  * http://wiki.apache.org/cassandra/FAQ#range_ghosts
  * http://wiki.apache.org/cassandra/DistributedDeletes
  *
+ * 删除数据，是将 column 删除掉了，row key 还是存在的
  * @author liguoqing
  */
 public class DeleteRowsForColumnFamily extends TutorialCommand {

@@ -14,6 +14,8 @@ import me.prettyprint.hector.api.query.RangeSlicesQuery;
  * For more information, see: http://wiki.apache.org/cassandra/FAQ#range_rp
  * KeyRange: http://wiki.apache.org/cassandra/API#KeyRange
  *
+ *  在column family中 查询 指定 row key 范围 的所有列(或指定列)的值
+ *
  * Created by liguoqing on 2015/4/23.
  */
 public class GetRangeSlicesForStateCity extends TutorialCommand {
@@ -29,7 +31,7 @@ public class GetRangeSlicesForStateCity extends TutorialCommand {
                 HFactory.createRangeSlicesQuery(keyspace, stringSerializer, stringSerializer, stringSerializer);
         rangeSlicesQuery.setColumnFamily("Npanxx");
         rangeSlicesQuery.setColumnNames("city", "state", "lat", "lng");
-        rangeSlicesQuery.setKeys("512202", "512205");
+        rangeSlicesQuery.setKeys("512202", "512205");  // 开始row key - 结束row key
         rangeSlicesQuery.setRowCount(5);
         QueryResult<OrderedRows<String, String, String>> results = rangeSlicesQuery.execute();
         return results;

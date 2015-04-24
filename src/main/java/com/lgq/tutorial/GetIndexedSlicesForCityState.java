@@ -16,6 +16,7 @@ import me.prettyprint.hector.api.query.QueryResult;
  * <p/>
  * Additional information: http://www.datastax.com/blog/whats-new-cassandra-07-secondary-indexes
  * <p/>
+ * 在column family中根据 column value的条件进行查询
  * Created by alone on 2015/4/23.
  */
 public class GetIndexedSlicesForCityState extends TutorialCommand {

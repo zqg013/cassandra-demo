@@ -22,7 +22,7 @@ public class TutorialRunner extends TutorialBase {
 
         init();
 
-        TutorialCommand command = loadCommand("get_slice");
+        TutorialCommand command = loadCommand("dynamic_comp_index");
         if (command != null) {
             try {
                 ResultStatus result = command.execute();
@@ -79,27 +79,27 @@ public class TutorialRunner extends TutorialBase {
      * Would be nice to have something fancier with enums at some point.
      */
     private static TutorialCommand loadCommand(String cmd) {
-        if (cmd.equalsIgnoreCase("get")) {
+        if (cmd.equalsIgnoreCase("get")) {                  //  根据指定的ColumnFamily - row_key - column_name获取某一列的值
             return new GetCityForNpanxx(tutorialKeyspace);
-        } else if (cmd.equalsIgnoreCase("get_slice")) {
+        } else if (cmd.equalsIgnoreCase("get_slice")) {       // 在column family中 查询 指定 row key 的所有列(或指定列)的值
             return new GetSliceForNpanxx(tutorialKeyspace);
-        } else if (cmd.equalsIgnoreCase("get_range_slices")) {
+        } else if (cmd.equalsIgnoreCase("get_range_slices")) {  //  在column family中 查询 指定 row key 范围 的所有列(或指定列)的值
             return new GetRangeSlicesForStateCity(tutorialKeyspace);
-        } else if (cmd.equalsIgnoreCase("get_slice_acc")) {
+        } else if (cmd.equalsIgnoreCase("get_slice_acc")) {  //   在指定的column family ： row key ：中查询 (切片范围 Austin - Austin__204) 列名的范围
             return new GetSliceForAreaCodeCity(tutorialKeyspace);
-        } else if (cmd.equalsIgnoreCase("get_slice_sc")) {
+        } else if (cmd.equalsIgnoreCase("get_slice_sc")) {    // 同上
             return new GetSliceForStateCity(tutorialKeyspace);
-        } else if (cmd.equalsIgnoreCase("multiget_slice")) {
+        } else if (cmd.equalsIgnoreCase("multiget_slice")) {   // 在column family中 指定多个row key 进行查询 多个column
             return new MultigetSliceForNpanxx(tutorialKeyspace);
-        } else if (cmd.equalsIgnoreCase("get_indexed_slices")) {
+        } else if (cmd.equalsIgnoreCase("get_indexed_slices")) {   // 在column family中根据 column value的条件进行查询
             return new GetIndexedSlicesForCityState(tutorialKeyspace);
-        } else if (cmd.equalsIgnoreCase("get_indexed_slices_raw")) {
+        } else if (cmd.equalsIgnoreCase("get_indexed_slices_raw")) {  // 同上
             return new GetIndexedSlicesHandleRawBytes(tutorialKeyspace);
-        } else if (cmd.equalsIgnoreCase("insert")) {
+        } else if (cmd.equalsIgnoreCase("insert")) {    // 插入数据
             return new InsertRowsForColumnFamilies(tutorialKeyspace);
-        } else if (cmd.equalsIgnoreCase("delete")) {
+        } else if (cmd.equalsIgnoreCase("delete")) {     // 删除数据
             return new DeleteRowsForColumnFamily(tutorialKeyspace);
-        } else if (cmd.equalsIgnoreCase("get_hcol")) {
+        } else if (cmd.equalsIgnoreCase("get_hcol")) {       // 使用HColumnFamily 获取column
             return new GetNpanxxHColumnFamily(tutorialKeyspace);
         } else if (cmd.equalsIgnoreCase("static_comp_index")) {
             return new StaticCompositeIndex(tutorialKeyspace);

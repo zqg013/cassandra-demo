@@ -22,10 +22,7 @@ public class GetNpanxxHColumnFamily extends TutorialCommand {
         HColumnFamily<String, String> columnFamily =
                 new HColumnFamilyImpl<String, String>(keyspace, "Npanxx", stringSerializer, stringSerializer);
         columnFamily.addKey("512202");
-        columnFamily.addColumnName("city")
-                .addColumnName("state")
-                .addColumnName("lat")
-                .addColumnName("lng");
+        columnFamily.addColumnName("city").addColumnName("state").addColumnName("lat").addColumnName("lng");
 
         // execution is fired as soon as the first accessor is called
         log.info("Results from HColumnFamily: city: {} state:{} lat:{} lng:{}",
