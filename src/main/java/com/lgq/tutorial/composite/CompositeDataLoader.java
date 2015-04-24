@@ -41,7 +41,7 @@ public class CompositeDataLoader extends TutorialBase {
   public static void main(String[] args) {
     long startTime = System.currentTimeMillis();
     init();
-    String fileLocation = properties.getProperty("composites.geodata.file.location","data/geodata.txt");
+    String fileLocation = properties.getProperty("composites.geodata.file.location","data.txt");
     BufferedReader reader;
     exec = Executors.newFixedThreadPool(5);
     try {
